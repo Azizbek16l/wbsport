@@ -7,18 +7,37 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <main>
+    <main class="bg-[url(1.png)] bg-no-repeat h-[100vh] bg-cover">
         <header>
+            <div class="container mx-auto w-[75%] flex justify-between items-center py-[28px]"> 
+
             <img src="logo.png" alt="">
-            <ul class="navbar">
-                <li>Trade In</li>
+            <ul class="navbar text-[#fff] flex gap-8 text-[16px] font-semibold">
+                <li class="text-[#F57520]">Trade In</li>
                 <li>Велосипеды</li>
                 <li>Запчасти</li>
                 <li>Экипировка </li>
             </ul>
             
-            
+            <div class="nav-element flex gap-6">
+                <img src="heart.png" alt="">
+                <img src="cart4.png" alt="">
+                <img src="Frame 62.png" alt="" class="ml-[54px]">
+            </div>
+        </div>
         </header>
+        <section>
+            <div class="container mx-auto w-[75%] text-[#fff] ">
+                <div class="bike-info w-[679px]">
+                    <h1 class="text-[96px] font-bold leading-[100px]">Электро велосипеды</h1>
+                    <p class="font-semibold text-[18px] mt-[48px] mb-[40px]">Cento10 Hybrid — это гоночный велосипед с помогающим педалированию электроприводом, который устанавливает новый, очень высокий стандарт для данной категории</p>
+                    <button class="bg-[#F57520] py-[16px] px-[45px] rounded-xl">
+                    Подробнее
+                    </button>
+                </div>
+            </div> 
+
+        </section>    
     </main>
 </body>
 </html>
